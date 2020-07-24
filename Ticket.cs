@@ -50,6 +50,7 @@ namespace Overview_of_Stack_and_Queue_Part_2
                     while (qs.Count != 0)
                     {
                         Console.WriteLine("Ticket Issued To " + ((Person)qs.Dequeue()).name);
+                         Console.WriteLine("Ticket Issued To " + ((Person)qs.Dequeue()).name);
 
                     }
                 }
